@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_order_app/view/page/history.dart';
-import 'package:food_order_app/view/page/home.dart';
-import 'package:food_order_app/view/page/search.dart';
 import 'package:food_order_app/view/page/splash_screen.dart';
 import 'package:get/get.dart';
 

@@ -15,7 +15,6 @@ class _LoginPageState extends State<LoginPage> {
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
 
-  // login Function
   void login() {
     String email = _emailController.text;
     String password = _passwordController.text;
@@ -281,7 +280,7 @@ class RegisterPage extends StatelessWidget {
               Center(
                 child: TextButton(
                   onPressed: () {
-                    Get.back(); // Kembali ke halaman login
+                    Get.back();
                   },
                   child: const Text(
                     "Kembali ke Login",

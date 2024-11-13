@@ -22,7 +22,8 @@ class CardCategory extends StatelessWidget {
                 child: Image.asset(
                   img,
                   fit: BoxFit.cover,
-                )),
+                )
+              ),
           ),
           Align(
             alignment: Alignment.bottomCenter,

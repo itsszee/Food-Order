@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_order_app/config/app_asset.dart';
-import 'package:food_order_app/view/page/home.dart'; // Import HomePage
-import 'package:food_order_app/view/page/history.dart'; // Import HistoryPage
+import 'package:food_order_app/view/page/home.dart';
+import 'package:food_order_app/view/page/history.dart';
 import 'package:get/get.dart';
 import 'package:gap/gap.dart';
 

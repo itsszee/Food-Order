@@ -42,6 +42,7 @@ class _HistoryPageState extends State<HistoryPage> {
         padding: const EdgeInsets.all(10),
         child: Column(
           children: [
+            const Gap(10),
             const Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [

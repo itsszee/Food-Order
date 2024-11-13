@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_order_app/model/cat_model.dart';
 import 'package:food_order_app/model/food_model.dart';
+import 'package:food_order_app/view/page/search.dart';
 import 'package:food_order_app/view/widget/card_category.dart';
 import 'package:gap/gap.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
@@ -36,7 +37,15 @@ class CatPage extends StatelessWidget {
                 itemCount: itemFood.length,
                 itemBuilder: (context, index) {
                   return ZoomTapAnimation(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => SearchPage(
+                          )
+                        )
+                      );
+                    },
                     child: CardCategory(
                       img: itemCat[index].img, 
                       nama: itemCat[index].nama, category: '', 

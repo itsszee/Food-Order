@@ -9,5 +9,5 @@ class AppAsset{
   static const food8 = 'assets/food_8.png';
   static const food9 = 'assets/food_9.png';
   static const food10 = 'assets/food_10.png';
-  
+   
 }

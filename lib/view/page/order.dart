@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_order_app/model/order_model.dart';
+import 'package:food_order_app/view/page/proses.dart';
 import 'package:food_order_app/view/widget/card_order.dart';
 import 'package:gap/gap.dart';
 
@@ -62,9 +63,8 @@ class OrderPage extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    // Placeholder for total price, replace with actual value
                     Text(
-                      'Rp 0', // Replace 'Rp 0' with the actual total price variable
+                      'Rp 0',
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
@@ -86,7 +86,14 @@ class OrderPage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(25),
                     ),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const ProsesPage(),
+                    ),
+                  );
+                  },
                   child: const Text(
                     'ORDER',
                     style: TextStyle(color: Colors.white),

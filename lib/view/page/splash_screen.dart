@@ -7,7 +7,6 @@ class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
 
   @override
-  // ignore: library_private_types_in_public_api
   _SplashScreenState createState() => _SplashScreenState();
 }
 
@@ -28,7 +27,6 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Logo
             Container(
               margin: const EdgeInsets.only(bottom: 20),
               child: const Icon(
@@ -37,7 +35,6 @@ class _SplashScreenState extends State<SplashScreen> {
                 color: Colors.orange,
               ),
             ),
-            // Judul
             const Text(
               'Zie Order App',
               style: TextStyle(
@@ -47,7 +44,6 @@ class _SplashScreenState extends State<SplashScreen> {
               ),
             ),
             const SizedBox(height: 10),
-            // Subjudul
             const Text(
               'Order Your Favorite Food',
               style: TextStyle(
